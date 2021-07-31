@@ -1,6 +1,5 @@
 #texto{
     font-family:sans-serif;
-    color:red;
     align-items: center;
     text-align: center;
     vertical-align:middle;
@@ -9,6 +8,16 @@
     margin-left:-100px; /* Metade do valor da Largura */
     position:absolute;
     width:400px; /* Valor da Largura */
+    color: orange;
+}
+#texto a{
+    text-decoration: none;
+}
+#texto a, a:visited, a:active{
+    color: inherit;
+}
+#texto a:hover{
+    text-decoration: underline;
 }
 body{
     background-color: black;
